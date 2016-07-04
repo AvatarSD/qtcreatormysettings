@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 4.0.82, 2016-07-03T21:54:51. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAMAAAB2AC8AaABvAG0AZQAvAHMAZAAvAGcAaQB0AC8AZwBzAG0AdABlAG0AcABjAG8AbgB0AHIAbwBsAGwAZQByAC8AYgB1AGkAbABkAF8AUgBlAGwAZQBhAHMAZQAvAEMATQBhAGsAZQBDAGEAYwBoAGUALgB0AHgAdAAAAAwAAAAAGAAAAAEAAACwAAAAAAAAAQEAAAAcAAAAAAAAAFoALwBoAG8AbQBlAC8AcwBkAC8AZwBpAHQALwBnAHMAbQB0AGUAbQBwAGMAbwBuAHQAcgBvAGwAbABlAHIALwBDAE0AYQBrAGUATABpAHMAdABzAC4AdAB4AHQAAAAMAAAAABgAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAByAC8AaABvAG0AZQAvAHMAZAAvAGcAaQB0AC8AYwBtAGEAawBlAHAAcgBvAGoAZQBjAHQAbQBhAG4AYQBnAGUAcgAyAC8AYwBtAGEAawBlAHAAcgBvAGoAZQBjAHQAbQBhAG4AYQBnAGUAcgAuAHAAcgBvAAAADAAAAAAYAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAwAAAHYALwBoAG8AbQBlAC8AcwBkAC8AZwBpAHQALwBnAHMAbQB0AGUAbQBwAGMAbwBuAHQAcgBvAGwAbABlAHIALwBiAHUAaQBsAGQAXwBSAGUAbABlAGEAcwBlAC8AQwBNAGEAawBlAEMAYQBjAGgAZQAuAHQAeAB0AAAAHABDAE0AYQBrAGUAQwBhAGMAaABlAC4AdAB4AHQAAAAUQ29yZS5QbGFpblRleHRFZGl0b3IAAABaAC8AaABvAG0AZQAvAHMAZAAvAGcAaQB0AC8AZwBzAG0AdABlAG0AcABjAG8AbgB0AHIAbwBsAGwAZQByAC8AQwBNAGEAawBlAEwAaQBzAHQAcwAuAHQAeAB0AAAAHABDAE0AYQBrAGUATABpAHMAdABzAC4AdAB4AHQAAAAYQ01ha2VQcm9qZWN0LkNNYWtlRWRpdG9yAAAAcgAvAGgAbwBtAGUALwBzAGQALwBnAGkAdAAvAGMAbQBhAGsAZQBwAHIAbwBqAGUAYwB0AG0AYQBuAGEAZwBlAHIAMgAvAGMAbQBhAGsAZQBwAHIAbwBqAGUAYwB0AG0AYQBuAGEAZwBlAHIALgBwAHIAbwAAAC4AYwBtAGEAawBlAHAAcgBvAGoAZQBjAHQAbQBhAG4AYQBnAGUAcgAuAHAAcgBvAAAAEVF0NC5wcm9GaWxlRWRpdG9yAAAAvwAAAA1jdXJyZW50ZWRpdG9yAAAAWgAvAGgAbwBtAGUALwBzAGQALwBnAGkAdAAvAGcAcwBtAHQAZQBtAHAAYwBvAG4AdAByAG8AbABsAGUAcgAvAEMATQBhAGsAZQBMAGkAcwB0AHMALgB0AHgAdAAAADAAQwBNAGEAawBlAFAAcgBvAGoAZQBjAHQALgBDAE0AYQBrAGUARQBkAGkAdABvAHIAAAAYAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/sd/git/gsmtempcontroller/CMakeLists.txt</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/sd/git/gsmtempcontroller/CMakeLists.txt</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Edit</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>value-DefaultFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-IndividualFormats</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">session</value>
+    <value type="QString">session</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/sd/git/gsmtempcontroller/CMakeLists.txt</value>
+    <value type="QString">gsmtempcontroller</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>value-Watchers</variable>
+  <valuelist type="QVariantList"/>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">DefaultFormats</value>
+   <value type="QString">IndividualFormats</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+   <value type="QString">Watchers</value>
+  </valuelist>
+ </data>
+</qtcreator>
