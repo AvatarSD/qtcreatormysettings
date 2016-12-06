@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorToolChains>
-<!-- Written by QtCreator 4.1.0, 2016-12-03T16:42:45. -->
+<!-- Written by QtCreator 4.2.82, 2016-12-06T17:33:06. -->
 <qtcreator>
  <data>
   <variable>ToolChain.0</variable>
@@ -14,6 +14,7 @@
    <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">false</value>
    <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">AVR-GCC</value>
    <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{c203c4c2-349d-450d-b127-2864054dfa16}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
   </valuemap>
  </data>
  <data>
@@ -31,6 +32,7 @@
    <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">false</value>
    <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (x86 64bit in /usr/bin)</value>
    <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{3694578a-2df6-49ca-a44f-cbc6e3bf0d9b}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
   </valuemap>
  </data>
  <data>
@@ -48,6 +50,7 @@
    <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">false</value>
    <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (x86 32bit in /usr/bin)</value>
    <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{e3837581-f8f5-4352-aad7-56711e8a830e}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
   </valuemap>
  </data>
  <data>
@@ -65,6 +68,7 @@
    <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
    <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (x86 64bit in /usr/bin)</value>
    <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{6b21ef14-e3b1-4d57-8ac0-f3fad082eaf6}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
   </valuemap>
  </data>
  <data>
@@ -82,11 +86,48 @@
    <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
    <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (x86 32bit in /usr/bin)</value>
    <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{3aa5e8f7-e111-45f4-b93b-9ddd8d411240}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">2</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.5</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-linux-gnu</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/gcc</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+    <value type="QString">x86-linux-generic-elf-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-linux-generic-elf-64bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (x86 64bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{0f377ec0-e110-4158-8732-5d4c2cf1e6e6}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">1</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ToolChain.6</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.GccToolChain.OriginalTargetTriple">x86_64-linux-gnu</value>
+   <value type="QString" key="ProjectExplorer.GccToolChain.Path">/usr/bin/gcc</value>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformCodeGenFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.PlatformLinkerFlags"/>
+   <valuelist type="QVariantList" key="ProjectExplorer.GccToolChain.SupportedAbis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+    <value type="QString">x86-linux-generic-elf-32bit</value>
+   </valuelist>
+   <value type="QString" key="ProjectExplorer.GccToolChain.TargetAbi">x86-linux-generic-elf-32bit</value>
+   <value type="bool" key="ProjectExplorer.ToolChain.Autodetect">true</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.DisplayName">GCC (x86 32bit in /usr/bin)</value>
+   <value type="QString" key="ProjectExplorer.ToolChain.Id">ProjectExplorer.ToolChain.Gcc:{5202e4c0-6d52-4e85-8172-4721d8e35956}</value>
+   <value type="int" key="ProjectExplorer.ToolChain.Language">1</value>
   </valuemap>
  </data>
  <data>
   <variable>ToolChain.Count</variable>
-  <value type="int">5</value>
+  <value type="int">7</value>
  </data>
  <data>
   <variable>Version</variable>

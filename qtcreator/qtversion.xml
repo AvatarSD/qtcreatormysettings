@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorQtVersions>
-<!-- Written by QtCreator 4.1.0, 2016-12-03T16:42:45. -->
+<!-- Written by QtCreator 4.2.82, 2016-12-06T17:33:05. -->
 <qtcreator>
  <data>
   <variable>QtVersion.0</variable>
@@ -10,17 +10,6 @@
    <value type="QString" key="QMakePath">/opt/Qt/5.7/gcc_64/bin/qmake</value>
    <value type="QString" key="QtVersion.Type">Qt4ProjectManager.QtVersion.Desktop</value>
    <value type="bool" key="isAutodetected">false</value>
-  </valuemap>
- </data>
- <data>
-  <variable>QtVersion.1</variable>
-  <valuemap type="QVariantMap">
-   <value type="int" key="Id">14</value>
-   <value type="QString" key="Name">Qt %{Qt:Version} GCC 64bit</value>
-   <value type="QString" key="QMakePath">/opt/Qt/5.7/gcc_64/bin/qmake</value>
-   <value type="QString" key="QtVersion.Type">Qt4ProjectManager.QtVersion.Desktop</value>
-   <value type="QString" key="autodetectionSource">SDK.qt.57.gcc_64</value>
-   <value type="bool" key="isAutodetected">true</value>
   </valuemap>
  </data>
  <data>
