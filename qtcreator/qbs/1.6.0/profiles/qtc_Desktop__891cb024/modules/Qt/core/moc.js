@@ -3,7 +3,7 @@
 ** Copyright (C) 2015 The Qt Company Ltd.
 ** Contact: http://www.qt.io/licensing
 **
-** This file is part of the Qt Build Suite.
+** This file is part of Qbs.
 **
 ** Commercial License Usage
 ** Licensees holding valid commercial Qt licenses may use this file in
@@ -39,14 +39,19 @@ function args(product, input, outputFileName)
     var includePaths = ModUtils.modulePropertiesFromArtifacts(product, [input], 'cpp', 'includePaths');
     includePaths = includePaths.uniqueConcat(ModUtils.modulePropertiesFromArtifacts(
                                                  product, [input], 'cpp', 'systemIncludePaths'));
+    includePaths = includePaths.uniqueConcat(ModUtils.modulePropertiesFromArtifacts(
+                                                 product, [input], 'cpp', 'compilerIncludePaths'));
     var frameworkPaths = product.moduleProperties("cpp", "frameworkPaths");
     frameworkPaths = frameworkPaths.uniqueConcat(
                 product.moduleProperties("cpp", "systemFrameworkPaths"));
+    frameworkPaths = frameworkPaths.uniqueConcat(
+                product.moduleProperties("cpp", "compilerFrameworkPaths"));
     var args = [];
     args = args.concat(
                 defines.map(function(item) { return '-D' + item; }),
                 includePaths.map(function(item) { return '-I' + item; }),
                 frameworkPaths.map(function(item) { return '-F' + item; }),
+                ModUtils.moduleProperties(product, "mocFlags"),
                 '-o', outputFileName,
                 input.filePath);
     return args;

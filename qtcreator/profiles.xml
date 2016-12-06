@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProfiles>
-<!-- Written by QtCreator 4.0.82, 2016-07-03T22:45:47. -->
+<!-- Written by QtCreator 4.1.0, 2016-12-03T16:42:45. -->
 <qtcreator>
  <data>
   <variable>Profile.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="PE.Profile.AutoDetected">true</value>
+   <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
+   <valuemap type="QVariantMap" key="PE.Profile.Data">
+    <value type="QString" key="Android.GdbServer.Information"></value>
+    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
+     <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
+     <value type="QString">CMAKE_CXX_COMPILER:STRING=%{Compiler:Executable}</value>
+    </valuelist>
+    <value type="QString" key="CMake.GeneratorKitInformation">CodeBlocks - Unix Makefiles</value>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{b6186cd4-2fec-4ef3-a9bb-5b2d42bf0f79}</value>
+    <value type="QString" key="Debugger.Information">{006711c6-f46b-45c4-8675-a25819634eba}</value>
+    <value type="QString" key="PE.Profile.Device">Desktop Device</value>
+    <value type="QString" key="PE.Profile.DeviceType">Desktop</value>
+    <valuelist type="QVariantList" key="PE.Profile.Environment"/>
+    <value type="QString" key="PE.Profile.SysRoot"></value>
+    <value type="QString" key="PE.Profile.ToolChain">{3694578a-2df6-49ca-a44f-cbc6e3bf0d9b}</value>
+    <value type="QString" key="QtPM4.mkSpecInformation"></value>
+    <value type="QString" key="QtSupport.QtInformation">SDK.qt.57.gcc_64</value>
+   </valuemap>
+   <value type="QString" key="PE.Profile.Icon">:///DESKTOP///</value>
+   <value type="QString" key="PE.Profile.Id">qt.57.gcc_64_kit</value>
+   <valuelist type="QVariantList" key="PE.Profile.MutableInfo"/>
+   <value type="QString" key="PE.Profile.Name">Desktop Qt %{Qt:Version} GCC 64bit</value>
+   <value type="bool" key="PE.Profile.SDK">true</value>
+   <valuelist type="QVariantList" key="PE.Profile.StickyInfo">
+    <value type="QString">PE.Profile.DeviceType</value>
+    <value type="QString">PE.Profile.ToolChain</value>
+    <value type="QString">QtSupport.QtInformation</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>Profile.1</variable>
   <valuemap type="QVariantMap">
    <value type="bool" key="PE.Profile.AutoDetected">false</value>
    <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
@@ -14,13 +48,17 @@
      <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
     </valuelist>
     <value type="QString" key="CMake.GeneratorKitInformation">CodeBlocks - Unix Makefiles</value>
-    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{8c9d431e-8829-4b2b-93d5-559d2feddc0f}</value>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{b6186cd4-2fec-4ef3-a9bb-5b2d42bf0f79}</value>
     <value type="QString" key="Debugger.Information">{006711c6-f46b-45c4-8675-a25819634eba}</value>
     <value type="QString" key="PE.Profile.Device">Desktop Device</value>
     <value type="QByteArray" key="PE.Profile.DeviceType">Desktop</value>
     <valuelist type="QVariantList" key="PE.Profile.Environment"/>
     <value type="QString" key="PE.Profile.SysRoot"></value>
     <value type="QByteArray" key="PE.Profile.ToolChain">{6b21ef14-e3b1-4d57-8ac0-f3fad082eaf6}</value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChains">
+     <value type="QByteArray" key="C">{3694578a-2df6-49ca-a44f-cbc6e3bf0d9b}</value>
+     <value type="QString" key="Cxx">{6b21ef14-e3b1-4d57-8ac0-f3fad082eaf6}</value>
+    </valuemap>
     <valuemap type="QVariantMap" key="QbsProjectManager.qbs-properties"/>
     <value type="QString" key="QtPM4.mkSpecInformation"></value>
     <value type="int" key="QtSupport.QtInformation">-1</value>
@@ -34,26 +72,26 @@
   </valuemap>
  </data>
  <data>
-  <variable>Profile.1</variable>
+  <variable>Profile.2</variable>
   <valuemap type="QVariantMap">
    <value type="bool" key="PE.Profile.AutoDetected">false</value>
    <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
    <valuemap type="QVariantMap" key="PE.Profile.Data">
     <value type="QString" key="Android.GdbServer.Information"></value>
-    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
-     <value type="QString">CMAKE_CXX_COMPILER:STRING=%{Compiler:Executable}</value>
-     <value type="QString">CMAKE_C_COMPILER:STRING=%{Compiler:Executable}</value>
-     <value type="QString">CMAKE_FIND_ROOT_PATH:PATH=/usr/lib/avr</value>
-     <value type="QString">CMAKE_SYSTEM_NAME:STRING=Generic</value>
-    </valuelist>
+    <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation"/>
     <value type="QString" key="CMake.GeneratorKitInformation">CodeBlocks - Unix Makefiles</value>
-    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{8c9d431e-8829-4b2b-93d5-559d2feddc0f}</value>
-    <value type="QString" key="Debugger.Information">{006711c6-f46b-45c4-8675-a25819634eba}</value>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{b6186cd4-2fec-4ef3-a9bb-5b2d42bf0f79}</value>
+    <value type="QString" key="Debugger.Information"></value>
     <value type="QString" key="PE.Profile.Device">{b15ba068-0c16-46dc-a409-7f7124855731}</value>
     <value type="QString" key="PE.Profile.DeviceType">BareMetalOsType</value>
     <valuelist type="QVariantList" key="PE.Profile.Environment"/>
     <value type="QString" key="PE.Profile.SysRoot"></value>
     <value type="QString" key="PE.Profile.ToolChain">{c203c4c2-349d-450d-b127-2864054dfa16}</value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChains">
+     <value type="QByteArray" key="C"></value>
+     <value type="QString" key="Cxx">{c203c4c2-349d-450d-b127-2864054dfa16}</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="QbsProjectManager.qbs-properties"/>
     <value type="QString" key="QtPM4.mkSpecInformation"></value>
     <value type="int" key="QtSupport.QtInformation">-1</value>
    </valuemap>
@@ -66,24 +104,30 @@
   </valuemap>
  </data>
  <data>
-  <variable>Profile.2</variable>
+  <variable>Profile.3</variable>
   <valuemap type="QVariantMap">
    <value type="bool" key="PE.Profile.AutoDetected">false</value>
    <value type="QString" key="PE.Profile.AutoDetectionSource"></value>
    <valuemap type="QVariantMap" key="PE.Profile.Data">
     <value type="QString" key="Android.GdbServer.Information"></value>
     <valuelist type="QVariantList" key="CMake.ConfigurationKitInformation">
-     <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
      <value type="QString">CMAKE_CXX_COMPILER:STRING=%{Compiler:Executable}</value>
+     <value type="QString">CMAKE_C_COMPILER:STRING=%{Compiler:Executable}</value>
+     <value type="QString">QT_QMAKE_EXECUTABLE:STRING=%{Qt:qmakeExecutable}</value>
     </valuelist>
     <value type="QString" key="CMake.GeneratorKitInformation">CodeBlocks - Unix Makefiles</value>
-    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{8c9d431e-8829-4b2b-93d5-559d2feddc0f}</value>
+    <value type="QString" key="CMakeProjectManager.CMakeKitInformation">{b6186cd4-2fec-4ef3-a9bb-5b2d42bf0f79}</value>
     <value type="QString" key="Debugger.Information">{006711c6-f46b-45c4-8675-a25819634eba}</value>
     <value type="QString" key="PE.Profile.Device">Desktop Device</value>
-    <value type="QByteArray" key="PE.Profile.DeviceType">Desktop</value>
+    <value type="QString" key="PE.Profile.DeviceType">Desktop</value>
     <valuelist type="QVariantList" key="PE.Profile.Environment"/>
     <value type="QString" key="PE.Profile.SysRoot"></value>
     <value type="QByteArray" key="PE.Profile.ToolChain">{6b21ef14-e3b1-4d57-8ac0-f3fad082eaf6}</value>
+    <valuemap type="QVariantMap" key="PE.Profile.ToolChains">
+     <value type="QByteArray" key="C">{3694578a-2df6-49ca-a44f-cbc6e3bf0d9b}</value>
+     <value type="QString" key="Cxx">{6b21ef14-e3b1-4d57-8ac0-f3fad082eaf6}</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="QbsProjectManager.qbs-properties"/>
     <value type="QString" key="QtPM4.mkSpecInformation"></value>
     <value type="int" key="QtSupport.QtInformation">13</value>
    </valuemap>
@@ -97,7 +141,7 @@
  </data>
  <data>
   <variable>Profile.Count</variable>
-  <value type="int">3</value>
+  <value type="int">4</value>
  </data>
  <data>
   <variable>Profile.Default</variable>

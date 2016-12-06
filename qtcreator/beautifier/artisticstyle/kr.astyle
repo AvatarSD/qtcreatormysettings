@@ -1,0 +1,1 @@
+--style=kr --attach-extern-c --fill-empty-lines --align-pointer=middle --align-reference=middle --remove-brackets --keep-one-line-statements --convert-tabs --close-templates --max-code-length=80 --pad-oper --unpad-paren --indent-col1-comments --max-instatement-indent=60 --break-after-logical

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorDevices>
-<!-- Written by QtCreator 4.0.82, 2016-07-03T22:45:47. -->
+<!-- Written by QtCreator 4.1.0, 2016-12-03T16:42:45. -->
 <qtcreator>
  <data>
   <variable>DeviceManager</variable>
@@ -33,8 +33,8 @@
      <value type="int" key="Authentication">1</value>
      <value type="QString" key="DebugServerKey"></value>
      <value type="QString" key="FreePortsSpec"></value>
-     <value type="QString" key="GdbServerProviderId">BareMetal.GdbServerProvider.Default:{2810e91e-1b97-4d47-bc41-1fd97ccc9e59}</value>
-     <value type="QString" key="Host"></value>
+     <value type="QString" key="GdbServerProviderId">BareMetal.GdbServerProvider.Default:{07e908d3-5c62-42e7-9e0b-e45b2f6fab19}</value>
+     <value type="QString" key="Host">localhost</value>
      <value type="int" key="HostKeyChecking">0</value>
      <value type="QString" key="InternalId">{b15ba068-0c16-46dc-a409-7f7124855731}</value>
      <value type="QString" key="KeyFile"></value>
@@ -43,7 +43,7 @@
      <value type="QString" key="OsType">BareMetalOsType</value>
      <value type="QString" key="Password"></value>
      <value type="int" key="SshOptions">3</value>
-     <value type="int" key="SshPort">0</value>
+     <value type="int" key="SshPort">3333</value>
      <value type="int" key="Timeout">0</value>
      <value type="int" key="Type">0</value>
      <value type="QString" key="Uname"></value>

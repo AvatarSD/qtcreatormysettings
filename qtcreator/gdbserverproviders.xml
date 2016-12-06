@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorGdbServerProviders>
-<!-- Written by QtCreator 4.0.82, 2016-07-03T22:45:47. -->
+<!-- Written by QtCreator 4.2.82, 2016-12-03T16:41:31. -->
 <qtcreator>
  <data>
+  <variable>GdbServerProvider.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="BareMetal.DefaultGdbServerProvider.Host">localhost</value>
+   <value type="int" key="BareMetal.DefaultGdbServerProvider.Port">3333</value>
+   <value type="QString" key="BareMetal.GdbServerProvider.DisplayName">avr</value>
+   <value type="QString" key="BareMetal.GdbServerProvider.Id">BareMetal.GdbServerProvider.Default:{07e908d3-5c62-42e7-9e0b-e45b2f6fab19}</value>
+   <value type="QString" key="BareMetal.GdbServerProvider.InitCommands"></value>
+   <value type="int" key="BareMetal.GdbServerProvider.Mode">0</value>
+   <value type="QString" key="BareMetal.GdbServerProvider.ResetCommands"></value>
+  </valuemap>
+ </data>
+ <data>
   <variable>GdbServerProvider.Count</variable>
-  <value type="int">0</value>
+  <value type="int">1</value>
  </data>
  <data>
   <variable>Version</variable>

@@ -1,6 +1,7 @@
 import qbs 1.0
 import qbs.FileInfo
 import qbs.ModUtils
+import qbs.Utilities
 import "moc.js" as Moc
 import "qdoc.js" as Qdoc
 
@@ -18,6 +19,7 @@ Module {
     property path pluginPath
     property path mkspecPath
     property string mocName: "moc"
+    property stringList mocFlags: []
     property string lreleaseName: "lrelease"
     property string qdocName: versionMajor >= 5 ? "qdoc" : "qdoc3"
     property stringList qdocEnvironment
@@ -75,9 +77,9 @@ Module {
     property string qdocOutputDir: FileInfo.joinPaths(generatedFilesDir, "html")
     property string qmDir: product.destinationDirectory
     property string qmBaseName: product.targetName
-    property string qmFilesDir: qmDir // TODO: Remove in 1.6
     property bool lreleaseMultiplexMode: false
 
+    cpp.cxxLanguageVersion: Utilities.versionCompare(version, "5.7.0") >= 0 ? "c++11" : original
     cpp.defines: {
         var defines = ["QT_CORE_LIB"];
         // ### QT_NO_DEBUG must be added if the current build variant is derived
